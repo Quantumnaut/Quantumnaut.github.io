@@ -1,0 +1,63 @@
+body {
+	background-image: url("http://mentalmars.com/wp-content/uploads/2014/12/Overwatch_Heroes_Wallpaper_-_Preview-800x450.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#titlecard{
+	width: 1500px;
+	height: auto;
+	margin-left: 200;
+	border-style: outset;
+	border-color: gold;
+
+}
+
+table {
+	margin-left: 40%;
+}
+
+td {
+	text-align: center;
+	font-family: Impact;
+}
+
+
+p {
+	text-align: center;
+	font-family: Tahoma;
+}
+
+.offense {
+	color: #b30000;
+}
+
+.tank {
+	color: #1f4060;
+}
+
+.support {
+	color: green;
+}
+
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: gold;
+}
+
+a:hover {
+	color: silver;
+}
+
+a:visited {
+	color: white;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: white;
+	}
+}
